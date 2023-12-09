@@ -136,6 +136,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 𝐍ᴀᴍᴇ ✧ {user.mention}
 𝐈ᴅ ✧ {user.id}
 𝐔sᴇʀɴᴀᴍᴇ ✧ @{user.username}
+𝐂ʀᴇᴀᴛᴇʀ ✧ @mr_naveen720
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"{user.first_name}", url=f"https://t.me/{user.username}")]])
@@ -160,5 +161,6 @@ async def bot_wel(_, message):
 NAME: {message.chat.title}
 ID: {message.chat.id}
 USERNAME: @{message.chat.username}
+𝐂ʀᴇᴀᴛᴇʀ ✧ @mr_naveen720
 ➖➖➖➖➖➖➖➖➖➖➖➖**
 """)
